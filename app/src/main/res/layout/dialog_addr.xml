@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="찾으시는 지역을 선택해주세요"
+        android:textColor="@color/dodgerblue"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/textView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/서울"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="서울특별시" />
+
+            <RadioButton
+                android:id="@+id/경기"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="경기도" />
+
+            <RadioButton
+                android:id="@+id/부산"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="부산광역시" />
+
+            <RadioButton
+                android:id="@+id/대구"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대구광역시" />
+
+            <RadioButton
+                android:id="@+id/인천"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="인천광역시" />
+
+            <RadioButton
+                android:id="@+id/세종"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="세종특별자치시" />
+
+            <RadioButton
+                android:id="@+id/대전"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="대전광역시" />
+
+            <RadioButton
+                android:id="@+id/울산"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="울산광역시" />
+
+            <RadioButton
+                android:id="@+id/광주"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="광주광역시" />
+
+            <RadioButton
+                android:id="@+id/제주"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="제주특별자치도" />
+
+            <RadioButton
+                android:id="@+id/경북"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="경상북도" />
+
+            <RadioButton
+                android:id="@+id/경남"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="경상남도" />
+
+            <RadioButton
+                android:id="@+id/충북"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="충청북도" />
+
+            <RadioButton
+                android:id="@+id/충남"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="충청남도" />
+
+            <RadioButton
+                android:id="@+id/전북"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전라북도" />
+
+            <RadioButton
+                android:id="@+id/전남"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전라남도" />
+
+            <RadioButton
+                android:id="@+id/강원"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="강원도" />
+        </RadioGroup>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

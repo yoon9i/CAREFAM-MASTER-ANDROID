@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="dimgray">#696969</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="violet">#EE82EE</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="lavenderblush">#FFF0F5</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="snow">#FFFAFA	</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="mistyrose">#FFE4E1	</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="creamwhite">#feffed</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="project_button_background_color">#E5E0FF</color>
+    <color name="project_background_color">#F2F6FC</color>
+    <color name="project_recyclerview_color">#EEF1FF</color>
+    <color name="project_button_color">#D2DAFF</color>
+    <color name="project_main_color">#B1B2FF</color>
+    <color name="Indicator_color">#708090</color>
+
+</resources>
